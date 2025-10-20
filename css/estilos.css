@@ -3,7 +3,7 @@ img {
 }
 
 body {
-    background-color: rgb(255, 177, 177);
+    background-color: rgb(240, 222, 195);
     
 }
 
@@ -14,10 +14,7 @@ h1 {
     
 }
 
-.galeria {
-    display: flex;
-    padding-left: 60px;
-}
+
 
 .exp {
     text-align: center;
@@ -28,4 +25,9 @@ h1 {
     justify-content: center;
     gap: 50px;
     padding: 20px;
+}
+.galerias {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
 }
