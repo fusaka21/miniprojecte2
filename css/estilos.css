@@ -14,20 +14,24 @@ h1 {
     
 }
 
-
-
 .exp {
     text-align: center;
     font-size: 20px;
 }
+
 .principallogos {
     display: flex;
     justify-content: center;
     gap: 50px;
     padding: 20px;
 }
+
 .galerias {
     display: flex;
     justify-content: space-around;
     padding: 50px;
+}
+
+.daisy {
+    background-color: #ffff00;
 }
