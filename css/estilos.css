@@ -1,5 +1,10 @@
-img {
+.imagenesinicio {
     width: 250px;
+}
+
+.imagenessecund {
+    width: 250px;
+    height: 250px;
 }
 
 body {
