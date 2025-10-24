@@ -46,3 +46,17 @@ h1 {
     text-align: justify;
     margin: 20px;
 }
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navegacion {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 100px;
+}
