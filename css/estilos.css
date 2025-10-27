@@ -54,8 +54,18 @@ h1 {
 
 .navegacion {
     display: flex;
-    justify-content: space-between;
+    gap: 30px;
+}
+
+.navegacion li {
+    list-style: none;
+}
+
+.navegacion a {
     text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
 }
 
 .logo {
