@@ -1,16 +1,14 @@
-.imagenesinicio {
-    width: 450px;
-}
-
 .imagenessecund {
-    width: 250px;
-    height: 250px;
+    max-width: 250px;
+    max-height: 250px;
+    border-radius: 10px;
+
 }
 
 h1 {
     text-align: center;
     font-weight: 900;
-    font-size: 50px;
+    font-size: 60px;
     
 }
 
@@ -85,7 +83,9 @@ body {
 }
 
 header {
-    border: 5px solid rgb(255, 251, 0);
+    border: 5px solid rgb(255, 255, 0);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
     background-color: rgb(0, 9, 32);
 }
 
@@ -100,8 +100,9 @@ main {
 
 .referencias-lista{
     font-size: 20px;
-    line-height: 1.6;
-    margin: 20px;
+    line-height: 2.5;
+    justify-items: left;
+    justify-items: center;
 }
 
 .referencias-lista a {
@@ -110,7 +111,41 @@ main {
 }
 
 .main-content {
-    padding-left: 150px;
-    padding-right: 150px;
-    font-size: larger;
+    padding-left: 400px;
+    padding-right: 400px;
+    font-size: 20px;
+    text-align: justify; 
+}
+
+.imagenlenguaje {
+    width: 700px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(28, 63, 158);
+    border: 5px solid rgb(255, 255, 0);
+    border-radius: 30px;
+}
+
+.intro-ref {
+    font-size: 20px;
+    margin-bottom: 20px;
+    justify-items: center;
+    font-weight: 600;
+}
+
+.sec-content {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 60px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: justify;
+    background-color: rgb(0, 9, 32);
+    border: 5px solid rgb(255, 255, 0);
+    border-radius: 30px;
 }
