@@ -27,7 +27,6 @@ h1 {
 .galerias {
     display: flex;
     justify-content: space-around;
-    padding: 50px;
 }
 
 .textodetail {
@@ -139,4 +138,8 @@ main {
     padding-top: 40px;
     font-size: 25px;
     text-align: justify;
+}
+
+.albumesdesp li {
+    display: none;
 }
