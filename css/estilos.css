@@ -27,6 +27,7 @@ h1 {
 .galerias {
     display: flex;
     justify-content: space-around;
+    padding-bottom: 50px;
 }
 
 .textodetail {
